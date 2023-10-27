@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "dir_name": {
+      "type": "string",
+      "default": "my_directory",
+      "description": "Directory name",
+      "order": 1
+    },
+    "file_name": {
+      "type": "string",
+      "default": "my_file",
+      "description": "File name within this directory",
+      "order": 2
+    },
+    "file_content": {
+      "type": "string",
+      "description": "File contents",
+      "order": 3
+    }
+  },
+  "success_message": "\n Your new project has been created in the '{{.dir_name}}' directory."
+}
+
